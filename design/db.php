@@ -11,7 +11,7 @@
 
  $conn=mysqli_connect($name_server,$user_name,$password,$name_DB);
 if(!$conn)
-  die("not succed conect ".mysqli_connect_error());
+  die("not successed conect ".mysqli_connect_error());
 
 
 
